@@ -9,8 +9,13 @@
 	width: 100%;
 	height: $grid * 10;
 	z-index: 5;
-	opacity: 0.35;
-	mix-blend-mode: multiply;
+
+	opacity: 0.15;
+
+	@supports (mix-blend-mode: multiply) {
+		opacity: 0.35;
+		mix-blend-mode: multiply;
+	}
 
 	@media #{$smaller-than-portrait-phone} {
 		height: calc(100vw - #{$grid * 1.25 * 2});
