@@ -1,0 +1,25 @@
+.page {
+
+}
+
+.page__background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: $grid * 10;
+	z-index: 5;
+	opacity: 0.35;
+	mix-blend-mode: multiply;
+
+	@media #{$smaller-than-portrait-phone} {
+		height: calc(100vw - #{$grid * 1.25 * 2});
+	}
+}
+
+.page__area {
+	position: relative;
+	margin-left: $grid * 1.25;
+	margin-right: $grid * 0.75;
+	z-index: 2;
+}

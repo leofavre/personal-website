@@ -1,0 +1,2 @@
+{% capture mrkd %}{% include {{include.src}} %}{% endcapture %}
+{{ mrkd | markdownify }}

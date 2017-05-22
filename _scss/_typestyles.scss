@@ -1,0 +1,40 @@
+%title {
+	margin: ($grid * 3) 0 $grid;
+	font-family: "Fira Code", monospace;
+	font-weight: 300;
+	text-transform: lowercase;
+	color: $dark-grey;
+}
+
+%paragraph {
+	margin: $grid 0;
+	font-size: 1rem;
+	line-height: $grid;
+	letter-spacing: -0.025em;
+	text-align: left;
+	color: $dark-grey;
+
+	@supports (hyphens: auto) {
+		hyphens: auto;
+	}
+
+	@media #{$smaller-than-portrait-tablet} {
+		hyphens: none;
+	}
+}
+
+%bullet {
+	position: relative;
+	list-style: none;
+
+	&::before {
+		content: "";
+		position: absolute;
+		display: block;
+		top: calc(#{$grid / 2} - 2px);
+		left: ($grid * -0.5);
+		width: 3px;
+		height: 3px;
+		background-color: $dark-grey;
+	}
+}

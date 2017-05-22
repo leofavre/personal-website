@@ -1,0 +1,23 @@
+%richtext {
+	h2 {
+		@extend %title;
+	}
+
+	p,
+	ul,
+	ol {
+		@extend %paragraph;
+	}
+
+	ul {
+		padding-left: 0;
+	}
+
+	li {
+		@extend %bullet;
+	}
+
+	a {
+		color: inherit;
+	}
+}

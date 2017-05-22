@@ -1,0 +1,32 @@
+.main {
+	margin-bottom: ($grid * 6);
+
+	img {
+		display: block;
+		height: $grid * 10;
+
+		@media #{$smaller-than-portrait-phone} {
+			height: auto;
+			width: calc(100vw - #{$grid * 1.25 * 2});
+		}
+	}
+
+	svg {
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: $grid;
+	}
+
+	svg path {
+		fill: $dark-grey;
+	}
+}
+
+.main__area {
+	@extend %richtext;
+
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 36rem;
+}
