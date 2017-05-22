@@ -10,16 +10,6 @@
 			width: calc(100vw - #{$grid * 1.25 * 2});
 		}
 	}
-
-	svg {
-		display: inline-block;
-		vertical-align: middle;
-		margin-right: $grid;
-	}
-
-	svg path {
-		fill: $dark-grey;
-	}
 }
 
 .main__area {

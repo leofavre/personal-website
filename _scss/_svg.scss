@@ -1,0 +1,26 @@
+svg {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: $grid - 0.125rem;
+}
+
+svg path {
+	fill: $dark-grey;
+
+	a:hover &,
+	a:active & {
+		fill: $pink;
+	}
+
+	a:hover & {
+		@media (hover: none) {
+			fill: inherit;
+		}
+	}
+
+	a:active & {
+		@media (hover: none) {
+			fill: $pink;
+		}
+	}
+}

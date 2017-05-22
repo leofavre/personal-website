@@ -18,6 +18,24 @@
 	}
 
 	a {
+		display: inline-block;
 		color: inherit;
+	}
+
+	a:hover,
+	a:active {
+		color: $pink;
+	}
+
+	a:hover {
+		@media (hover: none) {
+			color: inherit;
+		}
+	}
+
+	a:active {
+		@media (hover: none) {
+			color: $pink;
+		}
 	}
 }
