@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "resize:bitmaps": "./resize-bitmaps.sh",
     "process": "parallelshell \"npm run process:css\"  \"npm run process:js\" ",
-    "process:css": "mkdir -p ./css && node-sass ./_scss/index.scss --output-style compressed | ./node_modules/.bin/postcss --use autoprefixer -b \"last 3 versions\" > ./css/index.css",
+    "process:css": "mkdir -p ./css && node-sass ./_scss/index.scss --output-style compressed | ./node_modules/.bin/postcss --no-map --use autoprefixer -b \"last 3 versions\" > ./css/index.css",
     "process:js": "mkdir -p ./js && ./node_modules/.bin/rollup -c",
     "jekyll": "jekyll build --incremental --watch",
     "watch": "parallelshell \"npm run watch:css\" \"npm run watch:js\" \"npm run watch:includes\"",
