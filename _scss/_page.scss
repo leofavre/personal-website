@@ -4,15 +4,15 @@
 
 .page__background {
 	position: absolute;
+	display: none;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: $grid * 10;
 	z-index: 5;
 
-	opacity: 0.15;
-
 	@supports (mix-blend-mode: multiply) {
+		display: block;
 		opacity: 0.35;
 		mix-blend-mode: multiply;
 	}
