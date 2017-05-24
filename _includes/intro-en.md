@@ -2,4 +2,4 @@ Leonardo Favre, 39<br> Front-End Developer<br> Rio de Janeiro, Brazil<br> [leo@l
 
 {% include markdown src="social.html" %}
 
-[português](/)&emsp;english
+[português](/pt)&emsp;english
