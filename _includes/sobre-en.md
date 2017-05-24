@@ -1,6 +1,6 @@
 ## About
 
-I have worked as a Graphic Designer for seven years before I made the change to Front&#8209;End Development. In 2015, I finished a certificate program in UX, which now, along with my working experience, allows me to be part of stages of development that go beyond the code.
+I have worked as a Graphic Designer for seven years before I made the change to Front&#8209;End Development. In 2015, I finished a certificate program in UX Design, which now, along with my working experience, allows me to be part of stages of development that go beyond the code.
 
 I can travel between the Design’s subjectivity and the programming objectivity,
 enabling better communication between the two areas, without losing focus on the

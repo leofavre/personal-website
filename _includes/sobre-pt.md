@@ -1,6 +1,6 @@
 ## Sobre
 
-Trabalhei como Designer Gráfico por sete anos antes de migrar para o Desenvolvimento Front&#8209;End e, em 2015, concluí uma especialização na área de UX. Minha experiência permite que eu participe de etapas do desenvolvimento de produtos digitais que vão além do código.
+Trabalhei como Designer Gráfico por sete anos antes de migrar para o Desenvolvimento Front&#8209;End e, em 2015, concluí uma especialização na área de UX Design. Minha experiência permite que eu participe de etapas do desenvolvimento de produtos digitais que vão além do código.
 
 Transito entre a subjetividade do Design e a objetividade da programação promovendo a comunicação entre ambas as áreas, sem perder o foco no produto final e no usuário.
 
