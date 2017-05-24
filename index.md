@@ -4,4 +4,4 @@ language: pt-BR
 title: Leonardo Favre – Desenvolvedor Front-End
 ---
 
-{% include main.html %}
+{% include main-pt.html %}

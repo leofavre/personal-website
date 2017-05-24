@@ -1,7 +1,8 @@
 ---
 layout: default
+lang: en
 language: en-US
-title: Leonardo Favre – Desenvolvedor Front-End
+title: Leonardo Favre – Front-End Developer
 ---
 
-{% include markdown src="about.md" %}
+{% include main-en.html %}

@@ -15,7 +15,7 @@
 	color: $dark-grey;
 
 	@supports (hyphens: auto) {
-		hyphens: auto;
+		// hyphens: auto;
 	}
 
 	@media #{$smaller-than-portrait-tablet} {
