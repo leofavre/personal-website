@@ -1,6 +1,5 @@
 {% assign base = '' %}
-{% assign full_url = site.url | append: page.url %}
-{% assign depth = full_url | split: '/' | size | minus: 1 %}
+{% assign depth = page.url | split: '/' | size | minus: 1 %}
 {% if    depth <= 1 %}{% assign base = '.' %}
 {% elsif depth == 2 %}{% assign base = '..' %}
 {% elsif depth == 3 %}{% assign base = '../..' %}
